@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --para-color: rgb(169,170,171);
+    --text-color: rgb(34,188,126);
+    --bgc-color: #f0f4f5;
+}
+
+body{
+    background-color: #f0f4f5;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        top: 1.7rem;
+        width: 100%;
+    }
+    
+    .navbar img{
+        width: 110px;
+        position: relative;
+        left: 10rem;
+    }
+    
+    .nav-links{
+        display: flex;
+        gap: 2.2rem;
+        list-style: none;
+        position: inherit;
+        right: 11rem;
+    
+    }
+    
+    .nav-links li a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+
+    .nav-links li:hover{
+        font-weight: 700;
+        text-decoration: underline;
+        font-size: 17px;
+    }
+
+
+    /* Section */
+
+.section{
+
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section form{
+    height: 355px;
+    width: 275px;
+    padding: 20px;
+    background-color: var(--bgc-color);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 8px;
+    box-shadow: 1px 1px 5px 0.6px rgba(0, 0, 0, 0.463), -1px -1px 5px 0.6px rgba(0, 0, 0, 0.463) ;
+}
+
+.section form h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+.section form div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.section form div input{
+    padding: 3.5px;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 10px;
+}
+
+.section form div textarea{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.section form div label{
+    font-weight: 600;
+}
+
+.section form button{
+    margin-top: 4px;
+    padding: 8px;
+    background-color: var(--text-color);
+    color: #fff;
+    border: transparent;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.section form button:hover{
+    background-color: #faf6f6;
+    font-size: 15px;
+    color: var(--text-color);
+    text-decoration: underline;
+    border: 1px solid black;
+}
+
+
+

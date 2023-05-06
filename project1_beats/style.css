@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+
+}
+
+:root{
+    --background-color: rgb(15,15,16);
+    --btn-color: rgb(30,30,33);
+    --btn-shadow: rgb(69,69,71);
+    --card-bgc: rgb(24,26,27);
+}
+
+body{
+    background-color: var(--background-color);
+    /* overflow: hidden; */
+    height: 100%;
+    width: 100%;
+}
+
+
+
+    /* header nav */
+
+.head-nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 30px;
+    
+}
+.beats-logo{
+    position: relative;
+    left: 10rem;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    font-weight: 600;
+    position: relative;
+    left: 37rem;
+}
+
+.list li a{
+    text-decoration: none;
+}
+
+.nav-btn{
+    padding: 10px 30px;
+    border-radius: 7px;
+    border: transparent;
+    background-color: var(--btn-color);
+    box-shadow: -3px -3px var(--btn-shadow);
+    position: relative;
+    left: 40rem;
+}  
+
+
+    /* Section */
+
+.section{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.left-section{
+    position: relative;
+    right: 18rem;
+    top: -12rem;
+}
+
+.right-section{
+    
+    position: relative;
+    top: 5rem;
+   
+}
+
+.onear{
+    margin: 0px 0px 20px 50px ;
+}
+
+.section-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section-text h2{
+    font-size: 4rem;
+}
+
+.overview{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text{
+    line-height: 28px;
+}
+
+.section-btn{
+    width: 250px;
+    padding: 12px 10px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: var(--btn-color);
+    display: flex;
+    font-size: 17px;
+    font-weight: 300;
+    justify-content: space-around;
+}
+
+.section-btn .icon{
+    font-size: 17px;
+}
+
+.section-btn .btn-text{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+    /* social media */
+
+.social-media{
+    
+    position: absolute;
+    top: 46rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    margin-left: 60px;
+}
+
+
+    /* specs */
+.specs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.specs-body{
+    display: flex;
+    gap: 7rem;
+    margin-top: 3rem;
+}
+
+.left-specs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+.specs-item .s-head{
+    font-weight: 600;
+}
+
+.left-specs .b-l{
+    position: relative;
+    right: 25px;
+}
+
+    /* Case */
+
+.case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.case-body{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 5rem;
+    /* justify-content: center; */
+
+}
+
+.right-case{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.case-desc{
+    line-height: 28px;
+}
+
+
+.case-btn{
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: var(--btn-color);
+    display: flex;
+    font-size: 17px;
+    font-weight: 300;
+    justify-content: space-around;
+}
+
+
+        /* card */
+
+.card{
+    width: 55%;
+    height: 30%;
+    background-color: var(--card-bgc);
+    margin-top: 8rem;
+    margin-left: 20rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2.1rem 3rem;
+}
+
+.left-card{
+    display: flex;
+    flex-direction: column;
+    /* line-height: 20px; */
+    row-gap: 10px;
+
+}
+
+.card-head{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+
+.card-btn{
+    background-color: var(--background-color);
+    width: 130px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: transparent;
+    display: flex;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.shopping-icon{
+    margin-right: 5px;
+}
+
+
+        /* style youe self */
+
+.choose-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.choose-style-img{
+    height: 70px;
+    width: 150px;
+    margin: 1.1rem 0;
+}
+
+.style-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 4rem;
+    margin-right: 5rem;
+    position: relative;
+    right: 2.8rem;
+}
+
+.s-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: var(--card-bgc);
+    margin-bottom: 50px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    gap: 3.7rem;
+
+}
+
+.s-card .card-img{
+    height: 120px;
+    width: 100px;
+    margin-top: -50px;
+}
+
+.s-head{
+    font-weight: 600;
+    /* justify-self: end; */
+}
+
+.s-card-desc{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 48px;
+    right: 22px;
+    line-height: 5px;
+
+}
+
+.s-desc .s-beg{
+    /* background-color: var(--background-color); */
+    position: relative;
+    left: 45px;
+   
+}
+
+.l-card{
+    position: relative;
+    right: 6.5rem;
+}
+
+
+        /* Footer */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5rem 0;
+}
+
+.footer-logo{
+    position: relative;
+    bottom: 3rem;
+    /* right: 2rem; */
+    left: 6rem;
+}
+
+.footer-nav{
+    display: flex;
+    gap: 7rem;
+    line-height: 24px;  
+    position: relative; 
+    left: 8rem;
+}
+
+.list2{
+    list-style: none;
+}
+
+.f-head{
+    font-size: 19px;
+    font-weight: 600;
+    /* margin-bottom: 2rem; */
+}
+
+.f-items{
+    margin-top: 1.3rem;
+
+}
+
+.list2 li a{
+    text-decoration: none;
+}
+
+.footer-email{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    left: 7rem;
+    bottom: 1.5rem;
+}
+
+.f-input{
+    height: 45px;
+    padding-right: 6rem;
+    /* width: 15rem; */
+    background-color: var(--card-bgc);
+    border: transparent;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.footer-btn{
+    padding: 8px 20px;
+    background-color: var(--background-color);
+    border: transparent;
+    border-radius: 5px;
+    position: relative;
+    top: 2.4px;
+    right: 138px;
+    /* align-self: center; */
+    font-weight: 600;
+
+}
+
+.rightarroy{
+    /* margin-right: 20px; */
+    position: relative;
+    right: 10px;
+}
+
+.social-media1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.uparrow{
+    position: relative;
+    bottom: 3.4rem;
+    left: 2rem;
+}
