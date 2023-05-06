@@ -139,7 +139,7 @@ body{
     border-radius: 10px;
     position: relative;
     left: 5rem;
-    top: 30rem;
+    top: 18rem;
     
 }
 
@@ -155,7 +155,7 @@ body{
     flex-direction: column;
     /* justify-content: center; */
     position: relative;
-    top: 28rem;
+    top: 20rem;
 }
 
 .cards-section h1{
